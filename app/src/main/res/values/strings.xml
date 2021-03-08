@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LoginApp2H</string>
+    <string name="insira_o_usuario">Insira o usuário</string>
+    <string name="insira_a_senha">Insira a senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="sair">Sair</string>
+    <string name="esqueceu_sua_senha">Esqueceu sua senha?</string>
+</resources>
