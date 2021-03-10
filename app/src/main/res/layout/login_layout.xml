@@ -4,16 +4,61 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
+    android:layout_margin="20dp"
     android:orientation="vertical"
-    tools:context=".Login_Activity">
+    tools:context=".MainActivity">
 
-
-    <TextView
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="Login"
-        android:textSize="30sp" />
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/logo_iron_man" />
+    <!--
+        <TextView
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Usuário:" />-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_person"
+        android:hint="@string/insira_o_usuario"
+        android:inputType="textEmailAddress"
+        android:maxLength="50"
+        android:padding="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/ic_baseline_lock"
+        android:hint="@string/insira_a_senha"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:padding="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/entrar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/sair" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:text="@string/esqueceu_sua_senha"
+        android:textColor="#000"
+        android:textStyle="bold" />
 
 </LinearLayout>
